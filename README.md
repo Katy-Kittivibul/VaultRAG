@@ -150,6 +150,4 @@ Run the three primary pipelines sequentially:
 
 I am an **AI Engineer / Data Scientist** specialized in building robust, production-ready LLM pipelines. Let's connect!
 
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Portfolio:** [Your Portfolio Website]
-- **Email:** [Your Email Address]
+- **LinkedIn:** https://www.linkedin.com/in/kulisara-kittivibul/
