@@ -1,0 +1,65 @@
+[
+  {
+    "question": "What deep learning frameworks do I know?",
+    "cosine": {
+      "answer": " The user is familiar with PyTorch, PyTorch Geometric, and Torch Geometric Data for tensor operations and graph neural networks. They also have experience in RDKit for molecular property extraction, Wiberg Bond Order and Gasteiger Charges for quantum bond strength proxy and electronegativity-based charge assignment respectively. In terms of optimization and training, they are proficient with AdamW, Cosine Annealing Warm Restarts, Torch Gradient Clipping, and Uncertainty Loss. For explainability, the user knows Captum and Integrated Gradients.",
+      "scores": {
+        "context_recall": 0.6666666666666666,
+        "faithfulness": 0.75,
+        "factual_correctness": 0.47,
+        "answer_relevancy": 0.498997025923211
+      }
+    },
+    "hybrid": {
+      "answer": " The user is skilled in building systems where AI agents orchestrate multiple tools to solve complex problems, using multi-agent frameworks such as Google ADK, LangChain, and AutoGen. They have used this skill in the projects Sarsight and Sheffield Air Quality & IMD Sensor Study.\n\nThe Sheffield Air Quality & IMD Sensor Study is a spatial analysis of air quality sensor distribution versus socio-economic deprivation in Sheffield, using tools like Postgresql, PySAL, OSMx, and Streamlit. This project involves skills such as spatial data mining, environmental justice modeling, GIS engineering, automated pipelines, statistical analysis, and geospatial analysis.\n\nThe user also has knowledge of Geometric Deep Learning for deep learning on non-Euclidean data, which they have applied in the projects QE-GNN, Cargo Network, and (future) Sheffield Air Quality & IMD Sensor Study. They are familiar with using Random Forests as an ensemble learning method, primarily through their work on the RBD-FlexLoop project.\n\nFor deep learning frameworks, they have used PyTorch and PyTorch Geometric, which are also used in QE-GNN.",
+      "scores": {
+        "context_recall": 0.6666666666666666,
+        "faithfulness": 0.8571428571428571,
+        "factual_correctness": 0.8,
+        "answer_relevancy": 0.2947071293403953
+      }
+    }
+  },
+  {
+    "question": "What is the Sheffield air quality project?",
+    "cosine": {
+      "answer": " The Sheffield Air Quality project is a spatial analysis of the distribution of NO2 sensors versus socio-economic deprivation (IMD) in Sheffield. It aims to identify monitoring gaps in high-pollution, high-deprivation areas using kernel density estimation, spatial autocorrelation analysis, and environmental justice metrics. The project is currently ongoing from May 2026 and focuses on environmental justice modeling, statistical analysis, and spatial data mining.",
+      "scores": {
+        "context_recall": null,
+        "faithfulness": 1.0,
+        "factual_correctness": 0.6,
+        "answer_relevancy": 0.9522772955504223
+      }
+    },
+    "hybrid": {
+      "answer": " The Sheffield Air Quality & IMD Sensor Study is a spatial data science project that focuses on analyzing the distribution of air quality sensors (specifically, NO2) in Sheffield, England, and its relation to socio-economic deprivation (IMD). The objective is to identify monitoring gaps where high-pollution, high-deprivation areas are underserved by the current sensor network. This is achieved through various spatial analysis techniques such as kernel density estimation, spatial autocorrelation analysis, and environmental justice metrics.\n\nThe project uses tools like PostgreSQL, PostGIS, Geopandas, PySAL, OSMx, Folium, Streamlit, Python, and Gemini, and requires skills in spatial data mining, environmental justice modeling, GIS engineering, automated pipelines, statistical analysis, and geospatial analysis. The ultimate goal is to generate actionable insights for equitable sensor placement.",
+      "scores": {
+        "context_recall": null,
+        "faithfulness": null,
+        "factual_correctness": 0.93,
+        "answer_relevancy": 0.7671445919335546
+      }
+    }
+  },
+  {
+    "question": "What databases have I worked with?",
+    "cosine": {
+      "answer": " You have worked with PostgreSQL and PostGIS in the project \"Sheffield Air Quality & IMD Sensor Study\". PostgreSQL is an open-source object-relational database system, while PostGIS adds support for geographic objects allowing location queries to be run in SQL.",
+      "scores": {
+        "context_recall": 0.25,
+        "faithfulness": 1.0,
+        "factual_correctness": 0.2,
+        "answer_relevancy": 0.3310516702769624
+      }
+    },
+    "hybrid": {
+      "answer": " The user has worked with the following databases in their projects:\n1. PostgreSQL (used in the Sheffield Air Quality project)\n2. ChEMBL (a bioactivity database used in Cheminformatics projects)\n3. CIDO ontology (loaded via rdflib/owlready2 for Knowledge Graph Integration)",
+      "scores": {
+        "context_recall": 0.25,
+        "faithfulness": 0.5,
+        "factual_correctness": 0.0,
+        "answer_relevancy": 0.794052009174755
+      }
+    }
+  }
+]

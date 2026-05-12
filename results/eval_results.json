@@ -1,0 +1,92 @@
+[
+  {
+    "user_input": "What deep learning frameworks do I know?",
+    "response": "You know PyTorch.",
+    "retrieved_contexts": [
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]",
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]",
+      "---\ntags: [tool]\nprojects: [qe-gnn, cargo-network, RBD-FlexLoop]\n---\n\n# PyTorch\n\nDeep learning framework and tensor computation library.\n\n## Projects using this tool\n- [[qe-gnn]]\n- [[cargo-network]]\n- [[RBD-FlexLoop]]\n\n## Related tools\n- [[pytorch-geometric]]\n- [[captum]]",
+      "**Optimisation & Training:**\n\n- [[adamw]] — Adaptive moment estimation with weight decay\n- [[cosine-annealing-warmup]] — Learning rate scheduling\n- [[torch-gradient-clipping]] — Stability and gradient management\n- [[uncertainty-loss]] — Multi-task weighted objective\n\n**Explainability:**\n\n- [[captum]] — Feature attribution library\n- [[integrated-gradients]] — Gradient-based input importance\n\n**Infrastructure:**",
+      "**Optimisation & Training:**\n\n- [[adamw]] — Adaptive moment estimation with weight decay\n- [[cosine-annealing-warmup]] — Learning rate scheduling\n- [[torch-gradient-clipping]] — Stability and gradient management\n- [[uncertainty-loss]] — Multi-task weighted objective\n\n**Explainability:**\n\n- [[captum]] — Feature attribution library\n- [[integrated-gradients]] — Gradient-based input importance\n\n**Infrastructure:**"
+    ],
+    "reference": "PyTorch and TensorFlow/Keras are the primary deep learning frameworks used, with PyTorch preferred for research and custom model work.",
+    "scores": {
+      "context_recall": 0.3333333333333333,
+      "faithfulness": 1.0,
+      "factual_correctness": null,
+      "answer_relevancy": 0.2853605620250373
+    }
+  },
+  {
+    "user_input": "What is the Sheffield air quality project?",
+    "response": "The Sheffield Air Quality & IMD Sensor Study is an in-progress spatial data science project. It analyzes the distribution of air quality sensors (NO2) against socio-economic deprivation (IMD) in Sheffield to identify monitoring gaps in high-pollution, high-deprivation areas.",
+    "retrieved_contexts": [
+      "- **Sensor Density KDE:** Adaptive bandwidth (300m–1km) maps coverage continuously across Sheffield\n- **Environmental Justice Index:** Correlation between NO2 exposure and IMD sub-domains (income, employment, health, education)\n- **Spatial Autocorrelation:** Moran's I and Getis-Ord Gi* identify clusters of inequality\n- **Proximity Analysis:** Network distance (OSMnx) from schools/hospitals to nearest active sensor\n- **Coverage Gaps:** Identified zones with high NO2 + high IMD but low sensor density\n\n---",
+      "---\n\n## Summary\n\nA spatial analysis of air quality sensor distribution (NO2) versus socio-economic deprivation (IMD) in Sheffield. Identifies monitoring gaps where high-pollution, high-deprivation areas are underserved by the current sensor network using kernel density estimation, spatial autocorrelation analysis, and environmental justice metrics.\n\n---\n\n## Objective",
+      "# Sheffield Air Quality & IMD Sensor Study\n\n**Type:** [[spatial-data-science]] | [[environmental-justice]] | [[urban-analytics]] | [[data-science]]  \n**Status:** In-progress  \n**Date:** May 2026 – Present  \n**GitHub:** -\n\n---\n\n## Summary",
+      "---\n\n## Objective\n\n- Map sensor distribution coverage across Sheffield using adaptive KDE\n- Quantify spatial correlation between NO2 exposure and deprivation (IMD)\n- Identify \"monitoring gaps\"—high-pollution, high-deprivation zones with insufficient coverage\n- Measure proximity from sensitive locations (schools, hospitals) to active sensors\n- Generate actionable insights for equitable sensor placement\n\n---\n\n## Skills Acquired",
+      "---\ntags: [spatial-data-science, environmental-justice, urban-analytics, data-science]\ntype: Data Science\nstatus: in-progress\ndate: 2026-05\ntools: [postgresql, postgis, geopandas, pySAL, osmx, folium, streamlit, python, gemini]\nskills: [spatial-data-mining, environmental-justice-modeling, gis-engineering, automated-pipelines, statistical-analysis, geospatial-analysis]\n---\n\n# Sheffield Air Quality & IMD Sensor Study"
+    ],
+    "reference": "A project analysing air quality sensor data across Sheffield, involving time-series processing, geospatial visualisation, and anomaly detection on pollution readings.",
+    "scores": {
+      "context_recall": null,
+      "faithfulness": 1.0,
+      "factual_correctness": 0.5,
+      "answer_relevancy": 0.0
+    }
+  },
+  {
+    "user_input": "What databases have I worked with?",
+    "response": "You have worked with **PostgreSQL**.",
+    "retrieved_contexts": [
+      "### Geospatial & GIS\n- [[postgresql]]\n- [[postgis]]\n- [[geopandas]]\n- [[pySAL]]\n- [[osmx]]\n- [[folium]]\n\n### Knowledge Graphs\n- [[rdflib]]\n- [[networkx]]\n\n### Web & Deployment\n- [[streamlit]]\n- [[docker]]\n- [[gcp-cloud-run]]\n\n### Visualisation\n- [[plotly]]\n\n---\n\n## 📊 Project Categories",
+      "### Geospatial & GIS\n- [[postgresql]]\n- [[postgis]]\n- [[geopandas]]\n- [[pySAL]]\n- [[osmx]]\n- [[folium]]\n\n### Knowledge Graphs\n- [[rdflib]]\n- [[networkx]]\n\n### Web & Deployment\n- [[streamlit]]\n- [[docker]]\n- [[gcp-cloud-run]]\n\n### Visualisation\n- [[plotly]]\n\n---\n\n## 📊 Project Categories",
+      "---\ntags: [tool]\nprojects: [sheffield-air-quality]\n---\n\n# PostgreSQL\n\nOpen-source object-relational database system.\n\n## Projects using this tool\n- [[sheffield-air-quality]]\n\n## Related tools\n- [[postgis]]",
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]",
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]"
+    ],
+    "reference": "Experience includes PostgreSQL, SQLite, and BigQuery for structured data, alongside ChromaDB and FAISS for vector storage.",
+    "scores": {
+      "context_recall": null,
+      "faithfulness": 1.0,
+      "factual_correctness": 0.0,
+      "answer_relevancy": 0.4763055336050535
+    }
+  },
+  {
+    "user_input": "What are my geospatial tools?",
+    "response": "Your geospatial tools are:\n\n*   **postgresql** (with **postgis**)\n*   **geopandas**\n*   **pySAL**\n*   **osmx**\n*   **folium**",
+    "retrieved_contexts": [
+      "---\n\n## Tools & Technologies\n\n**Geospatial & Spatial Analysis:**\n- [[postgresql]] + [[postgis]] — Spatial database backend with geometry operations\n- [[geopandas]] — GeoDataFrame manipulation and spatial joins\n- [[pySAL]] — Moran's I, Getis-Ord Gi*, spatial autocorrelation statistics\n- [[osmx]] — OpenStreetMap network distance (schools, hospitals to sensors)\n- [[folium]] — Interactive web maps for stakeholder exploration",
+      "### Geospatial & GIS\n- [[postgresql]]\n- [[postgis]]\n- [[geopandas]]\n- [[pySAL]]\n- [[osmx]]\n- [[folium]]\n\n### Knowledge Graphs\n- [[rdflib]]\n- [[networkx]]\n\n### Web & Deployment\n- [[streamlit]]\n- [[docker]]\n- [[gcp-cloud-run]]\n\n### Visualisation\n- [[plotly]]\n\n---\n\n## 📊 Project Categories",
+      "### Geospatial & GIS\n- [[postgresql]]\n- [[postgis]]\n- [[geopandas]]\n- [[pySAL]]\n- [[osmx]]\n- [[folium]]\n\n### Knowledge Graphs\n- [[rdflib]]\n- [[networkx]]\n\n### Web & Deployment\n- [[streamlit]]\n- [[docker]]\n- [[gcp-cloud-run]]\n\n### Visualisation\n- [[plotly]]\n\n---\n\n## 📊 Project Categories",
+      "### Spatial & Data Mining\n- [[spatial-data-mining]]\n- [[environmental-justice-modeling]]\n- [[gis-engineering]]\n- [[geospatial-analysis]]\n- [[clustering]]\n- [[network-analysis]]\n\n### Engineering & Deployment\n- [[cloud-native-deployment]]\n- [[gpu-optimization]]\n- [[automated-pipelines]]\n\n### Math & Theory\n- [[graph-theory]]\n- [[statistical-analysis]]\n\n### Domain\n- [[supply-chain-optimization]]\n\n---\n\n## 🛠 Tools Index\n\n### AI & LLMs\n- [[google-adk]]\n- [[gemini]]\n- [[gemini-2-0-flash]]\n- [[pydantic]]",
+      "### Spatial & Data Mining\n- [[spatial-data-mining]]\n- [[environmental-justice-modeling]]\n- [[gis-engineering]]\n- [[geospatial-analysis]]\n- [[clustering]]\n- [[network-analysis]]\n\n### Engineering & Deployment\n- [[cloud-native-deployment]]\n- [[gpu-optimization]]\n- [[automated-pipelines]]\n\n### Math & Theory\n- [[graph-theory]]\n- [[statistical-analysis]]\n\n### Domain\n- [[supply-chain-optimization]]\n\n---\n\n## 🛠 Tools Index\n\n### AI & LLMs\n- [[google-adk]]\n- [[gemini]]\n- [[gemini-2-0-flash]]\n- [[pydantic]]"
+    ],
+    "reference": "GeoPandas, Folium, and Shapely are used for geospatial analysis, with QGIS for desktop GIS work and Leaflet for interactive web maps.",
+    "scores": {
+      "context_recall": null,
+      "faithfulness": 1.0,
+      "factual_correctness": 0.4,
+      "answer_relevancy": 0.8747252278125924
+    }
+  },
+  {
+    "user_input": "What chemistry tools do I use?",
+    "response": "You use the following chemistry tools:\n\n*   **RDKit**\n*   **ChEMBL API**\n*   **CIDO Ontology**\n*   **Owlready2**\n*   **py3Dmol**\n*   **streamlit-molstar** (or Molstar)\n*   **AutoDock Vina**\n*   **GROMACS**\n*   **AmberTools**\n*   **MM-PBSA**\n*   **MM-GBSA**\n*   **PropKa**\n*   **Discovery Studio**\n*   **Swiss-Model**\n*   **Wiberg Bond Order**\n*   **Gasteiger Charges**",
+    "retrieved_contexts": [
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]",
+      "### Deep Learning\n- [[pytorch]]\n- [[pytorch-geometric]]\n- [[adamw]]\n- [[captum]]\n- [[esmdynamic]]\n\n### Chemistry & Molecular Analysis\n- [[rdkit]]\n- [[chembl-api]]\n- [[cido-ontology]]\n- [[owlready2]]\n- [[py3dmol]]\n- [[streamlit-molstar]]\n- [[autodock-vina]]\n- [[gromacs]]\n- [[ambertools]]\n- [[mm-pbsa]]\n- [[mm-gbsa]]\n- [[propka]]\n- [[discovery-studio]]\n- [[swiss-model]]\n\n### Data Processing & Analysis\n- [[pandas]]\n- [[numpy]]\n- [[scikit-learn]]\n- [[statsmodels]]\n- [[random-forest]]",
+      "---\n\n## Tools & Technologies\n\n**Deep Learning Framework:**\n\n- [[pytorch]] — Core tensor operations\n- [[pytorch-geometric]] — Graph neural network layers and utilities\n- [[torch-geometric-data]] — QM9 dataset handling\n\n**Chemistry & Feature Engineering:**\n\n- [[rdkit]] — Molecular property extraction\n- [[wiberg-bond-order]] — Quantum bond strength proxy\n- [[gasteiger-charges]] — Electronegativity-based charge assignment\n\n**Optimisation & Training:**",
+      "---\n\n## Tools & Technologies\n\n**Deep Learning Framework:**\n\n- [[pytorch]] — Core tensor operations\n- [[pytorch-geometric]] — Graph neural network layers and utilities\n- [[torch-geometric-data]] — QM9 dataset handling\n\n**Chemistry & Feature Engineering:**\n\n- [[rdkit]] — Molecular property extraction\n- [[wiberg-bond-order]] — Quantum bond strength proxy\n- [[gasteiger-charges]] — Electronegativity-based charge assignment\n\n**Optimisation & Training:**",
+      "1. **Agent Orchestration:** Google ADK manages task routing between specialised tools (protein lookup, compound search, structure analysis)\n2. **Knowledge Graph Integration:** CIDO ontology loaded via rdflib/owlready2; queries vectorised for semantic search\n3. **Molecular Analysis:** RDKit processes SMILES strings; py3Dmol/Molstar renders 3D structures\n4. **Conversational Interface:** Gemini 2.0 Flash interprets research questions and calls appropriate tools"
+    ],
+    "reference": "RDKit is the main cheminformatics library used for molecular processing, fingerprinting, and property prediction tasks.",
+    "scores": {
+      "context_recall": 1.0,
+      "faithfulness": 0.625,
+      "factual_correctness": 0.12,
+      "answer_relevancy": 0.8763887172429102
+    }
+  }
+]

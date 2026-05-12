@@ -1,0 +1,30 @@
+# LLM & Embeddings
+sentence-transformers==3.3.1
+langchain==0.3.7
+langchain-core==0.3.63
+langchain-community==0.3.7
+langchain-google-genai==2.0.5
+langchain-chroma==0.1.4
+langsmith==0.1.147
+google-generativeai==0.8.3
+
+# Evaluation
+ragas==0.2.6
+
+# Vector store
+chromadb==0.5.18
+
+# Dashboard
+streamlit==1.40.1
+
+# Document processing
+rank-bm25==0.2.2
+unstructured==0.16.10
+markdown==3.7
+tiktoken==0.8.0
+
+# Utilities
+numpy==1.26.4
+python-dotenv==1.0.1
+pydantic==2.9.2
+tenacity==9.0.0

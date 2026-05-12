@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What deep learning frameworks do I know?",
+    "cosine_answer": " The user is familiar with the following deep learning frameworks: PyTorch, PyTorch Geometric, and Torch Geometric Data.",
+    "hybrid_answer": " The user has knowledge of the following deep learning frameworks:\n- PyTorch\n- PyTorch Geometric\n\nThese frameworks were used in the projects sarsight, sheffield-air-quality, and QE-GNN. They are also related to the tool Random Forest, which was used in the RBD-FlexLoop project. The user also has experience with the Scikit-learn tool.\n\nIn addition, the user is familiar with concepts such as Geometric Deep Learning and Graph Neural Networks (GNNs), which are relevant to the projects QE-GNN, cargo-network, and sheffield-air-quality (future). The user also has experience with skills like knowledge graph engineering, API integration, and agentic workflows.",
+    "cosine_sources": [
+      "Projects/qe-gnn.md",
+      "Skills/geometric-deep-learning.md",
+      "Projects/cargo-network.md",
+      "Tools/esmdynamic.md",
+      "Projects/qe-gnn.md"
+    ],
+    "hybrid_sources": [
+      "E:\\Second brain\\ds-ml-brain\\Skills\\agentic-workflows.md",
+      "Projects/qe-gnn.md",
+      "E:\\Second brain\\ds-ml-brain\\Projects\\sheffield-air-quality.md",
+      "Skills/geometric-deep-learning.md",
+      "E:\\Second brain\\ds-ml-brain\\Tools\\random-forest.md",
+      "Projects/cargo-network.md"
+    ]
+  },
+  {
+    "question": "What is the Sheffield air quality project?",
+    "cosine_answer": " The Sheffield Air Quality project is an in-progress study analyzing the distribution of air quality sensors (specifically NO2) versus socio-economic deprivation (IMD) in Sheffield. The goal is to identify monitoring gaps where high-pollution, high-deprivation areas are underserved by the current sensor network using techniques like kernel density estimation and spatial autocorrelation analysis. The project falls under spatial data science, environmental justice, urban analytics, and data science categories.\n\nThe objectives of this project include Environmental Justice Modeling, Statistical Analysis, and Spatial Data Mining. For Environmental Justice Modeling, the project focuses on quantifying and mapping environmental benefits and burdens across different socio-economic groups. In terms of Statistical Analysis, various statistical methods are applied to describe, analyze, and interpret data. Lastly, for Spatial Data Mining, patterns and knowledge from spatial data are discovered using techniques like Kernel Density Estimation and Hotspot detection.",
+    "hybrid_answer": " The Sheffield Air Quality & IMD Sensor Study is a data science project that conducts a spatial analysis of air quality sensor distribution (NO2) versus socio-economic deprivation (IMD) in Sheffield. It aims to identify monitoring gaps, high-pollution, high-deprivation areas with insufficient coverage by the current sensor network using kernel density estimation, spatial autocorrelation analysis, and environmental justice metrics. The project utilizes tools such as PostGIS, geopandas, folium, Streamlit, and Python. It involves skills like spatial data mining, environmental justice modeling, GIS engineering, automated pipelines, statistical analysis, and geospatial analysis. The objective is to generate actionable insights for equitable sensor placement.",
+    "cosine_sources": [
+      "Projects/sheffield-air-quality.md",
+      "Projects/sheffield-air-quality.md",
+      "Skills/environmental-justice-modeling.md",
+      "Skills/statistical-analysis.md",
+      "Skills/spatial-data-mining.md"
+    ],
+    "hybrid_sources": [
+      "E:\\Second brain\\ds-ml-brain\\Projects\\sheffield-air-quality.md",
+      "Projects/sheffield-air-quality.md",
+      "E:\\Second brain\\ds-ml-brain\\Tools\\cido-ontology.md",
+      "Projects/sheffield-air-quality.md",
+      "E:\\Second brain\\ds-ml-brain\\Projects\\Mpro-Inhibitors.md",
+      "Skills/environmental-justice-modeling.md"
+    ]
+  },
+  {
+    "question": "What databases have I worked with?",
+    "cosine_answer": " The user has worked with PostgreSQL and PostGIS in the \"Sheffield Air Quality & IMD Sensor Study\" project.",
+    "hybrid_answer": " You have worked with the following databases in your projects:\n\n1. PostgreSQL: Used in the [sheffield-air-quality] project.\n2. (PostGIS is a spatial extension for PostgreSQL, so it's also related.)\n3. Cheminformatics databases like ChEMBL might be used in projects such as [[sarsight]], [[qe-gnn]], and [[Mpro-Inhibitors]] due to their focus on molecular structures and chemical reactions.\n4. Knowledge Graph Engineering might involve the use of ontologies, RDF/SPARQL for integrating structured semantic knowledge with AI systems.",
+    "cosine_sources": [
+      "Tools/postgresql.md",
+      "INDEX.md",
+      "Projects/sarsight.md",
+      "Tools/postgis.md",
+      "Projects/sheffield-air-quality.md"
+    ],
+    "hybrid_sources": [
+      "E:\\Second brain\\ds-ml-brain\\Skills\\cheminformatics.md",
+      "Tools/postgresql.md",
+      "E:\\Second brain\\ds-ml-brain\\Skills\\knowledge-graph-engineering.md",
+      "INDEX.md",
+      "E:\\Second brain\\ds-ml-brain\\Skills\\gis-engineering.md",
+      "Projects/sarsight.md"
+    ]
+  },
+  {
+    "question": "What are my geospatial tools?",
+    "cosine_answer": " Your primary geospatial tools include PostGIS, Geopandas, pySAL, osmnx, and folium. You have also used OSMnx in other projects like cargo-network apart from sheffield-air-quality. Additionally, you have skills related to spatial data mining and buffer analysis, point-in-polygon operations, distance matrices, choropleth mapping, and KDE vs. Kriging evaluation.",
+    "hybrid_answer": " In your projects, you've used the following geospatial tools:\n1. Folium: A Python library for visualizing geospatial data on interactive web maps. Used in the project [[sheffield-air-quality]].\n2. OSMnx: A Python package that lets you download and analyze real-world street networks from OpenStreetMap. Also used in the project [[sheffield-air-quality]].\n3. GeoPandas: A Python library for working with geospatial data using the datatypes provided by pandas, allowing spatial operations on geometric types. Used in the project [[sheffield-air-quality]].\n\nThese tools are related to each other and you've utilized them in the [[sheffield-air-quality]] project for various purposes such as network distance analysis, visualization, and geospatial data manipulation.\n\nIn addition to these tools, you also have skills related to Geospatial Analysis, GIS Engineering, and Spatial Data Mining. These skills are essential in the design, implementation, and analysis of systems for capturing, storing, manipulating, and analyzing geographical data. Key concepts within these skill areas include buffer analysis, point-in-polygon operations, distance matrices, choropleth mapping, and spatial joins and queries.",
+    "cosine_sources": [
+      "Projects/sheffield-air-quality.md",
+      "Skills/gis-engineering.md",
+      "Skills/geospatial-analysis.md",
+      "Projects/sheffield-air-quality.md",
+      "Tools/osmx.md"
+    ],
+    "hybrid_sources": [
+      "E:\\Second brain\\ds-ml-brain\\Tools\\folium.md",
+      "Projects/sheffield-air-quality.md",
+      "E:\\Second brain\\ds-ml-brain\\Tools\\osmx.md",
+      "Skills/gis-engineering.md",
+      "E:\\Second brain\\ds-ml-brain\\Tools\\geopandas.md",
+      "Skills/geospatial-analysis.md"
+    ]
+  },
+  {
+    "question": "What chemistry tools do I use?",
+    "cosine_answer": " You are using several chemistry and molecular analysis tools, including RDKit for molecular analysis (as seen in the projects Sarsight and Cheminformatics), and AmberTools, Gromacs, MM-PBSA, MM-GBSA for molecular dynamics simulations. Additionally, you utilize QM9 dataset handling through torch-geometric-data. Other notable tools include Chembl API, CIDO Ontology, Owlready2, Py3DMol, Streamlit Molstar, Autodock Vina, Propka, Discovery Studio, Swiss Model for molecular analysis and data processing tools such as Pandas, NumPy, Scikit-Learn, Statsmodels, Random Forest. For deep learning, you are using Pytorch, PyTorch Geometric, AdamW, Captum, and ESMDynamic.",
+    "hybrid_answer": " Some of the chemistry tools you have used include:\n1. RDKit - for molecular analysis, property extraction, and machine learning model development (used in QM9 dataset and RBD-FlexLoop projects)\n2. Molecular Mechanics Generalized Born Surface Area (MM-GBSA) method - for binding free energy estimation (used in RBD-FlexLoop project)\n3. Molecular Mechanics Generalized Born Surface Area (MM-PBSA) method - for binding free energy estimation (related tool, not explicitly mentioned in your projects)\n4. AmberTools - for molecular dynamics simulations and structure prediction (related tool, not explicitly mentioned in your projects)\n5. Gromacs - for molecular dynamics simulations and structural bioinformatics (related tool, not explicitly mentioned in your projects)\n6. PostgreSQL - as an open-source object-relational database system used for data management in the Sheffield Air Quality project.\n7. Wiberg bond order - a quantum bond strength proxy used for feature engineering in QM9 dataset and related projects.\n8. Gasteiger charges - electronegativity-based charge assignment used for feature engineering in QM9 dataset and related projects.\n\nThese tools provide various functionalities to help with molecular simulations, property prediction, machine learning model development, and data management in chemistry-related domains such as drug discovery and material design.",
+    "cosine_sources": [
+      "Tools/mm-pbsa.md",
+      "Tools/mm-gbsa.md",
+      "Projects/qe-gnn.md",
+      "INDEX.md",
+      "Projects/qe-gnn.md"
+    ],
+    "hybrid_sources": [
+      "E:\\Second brain\\ds-ml-brain\\Projects\\sheffield-air-quality.md",
+      "Tools/mm-pbsa.md",
+      "E:\\Second brain\\ds-ml-brain\\Projects\\qe-gnn.md",
+      "Tools/mm-gbsa.md",
+      "E:\\Second brain\\ds-ml-brain\\Tools\\postgresql.md",
+      "Projects/qe-gnn.md"
+    ]
+  }
+]
