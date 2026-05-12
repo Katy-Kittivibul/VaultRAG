@@ -1,3 +1,7 @@
+import chromadb
+from chromadb.config import Settings
+chromadb.Client(Settings(anonymized_telemetry=False))
+
 import os
 
 import numpy as np
@@ -62,7 +66,7 @@ def build_chain():
     vectorstore = Chroma(persist_directory=CHROMA_PATH, embedding_function=embeddings)
     retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
 
-    llm = Ollama(model="mistral")
+    llm = Ollama(model="mistral", temperature=0, num_gpu=0)
 
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
@@ -95,7 +99,7 @@ def build_hybrid_chain():
         weights=[0.5, 0.5],
     )
 
-    llm = Ollama(model="mistral")
+    llm = Ollama(model="mistral", temperature=0, num_gpu=0)
     prompt = ChatPromptTemplate.from_messages([
         ("system", SYSTEM_PROMPT),
         ("human", "{input}"),

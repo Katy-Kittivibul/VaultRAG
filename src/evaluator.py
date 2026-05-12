@@ -1,3 +1,7 @@
+import chromadb
+from chromadb.config import Settings
+chromadb.Client(Settings(anonymized_telemetry=False))
+
 import argparse
 import json
 import math
